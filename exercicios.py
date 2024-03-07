@@ -9,12 +9,16 @@ def eq_seg_grau(a, b, c):
 
 eq_seg_grau(1, 2, -15)
 
+print("-" * 15)
+
     # Anos bissextos
 
 def bissexto(ano):
     print (bool(ano % 100 != 0 and ano % 4 == 0) or (ano % 100 == 0 and ano % 400 == 0))
 
 bissexto(1950)
+
+print("-" * 30)
 
 # Exercício 2: Salários
 
